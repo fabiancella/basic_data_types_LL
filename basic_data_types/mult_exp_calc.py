@@ -1,0 +1,50 @@
+
+print("Welcome to the Multiplication/Exponent App")
+
+name = input("\nHello what is your name: ").title()
+
+num1 = float(input("What number would you like to work with: "))
+
+mult1 = round(num1 * 1)
+mult2 = round(num1 * 2)
+mult3 = round(num1 * 3)
+mult4 = round(num1 * 4)
+mult5 = round(num1 * 5)
+mult6 = round(num1 * 6)
+mult7 = round(num1 * 7)
+mult8 = round(num1 * 8)
+mult9 = round(num1 * 9)
+
+print("\nMultiplication table for: " + str(num1))
+
+print("\t1.0 * " + str(num1) + " = " + str(mult1))
+print("\t2.0 * " + str(num1) + " = " + str(mult2))
+print("\t3.0 * " + str(num1) + " = " + str(mult3))
+print("\t4.0 * " + str(num1) + " = " + str(mult4))
+print("\t5.0 * " + str(num1) + " = " + str(mult5))
+print("\t6.0 * " + str(num1) + " = " + str(mult6))
+print("\t7.0 * " + str(num1) + " = " + str(mult7))
+print("\t8.0 * " + str(num1) + " = " + str(mult8))
+print("\t9.0 * " + str(num1) + " = " + str(mult9))
+
+exp1 = round(num1 ** 1)
+exp2 = round(num1 ** 2)
+exp3 = round(num1 ** 3)
+exp4 = round(num1 ** 4)
+exp5 = round(num1 ** 5)
+exp6 = round(num1 ** 6)
+exp7 = round(num1 ** 7)
+exp8 = round(num1 ** 8)
+exp9 = round(num1 ** 9)
+
+print("\nExponent table for: " + str(num1))
+
+print("\t1.0 * " + str(num1) + " = " + str(exp1))
+print("\t2.0 * " + str(num1) + " = " + str(exp2))
+print("\t3.0 * " + str(num1) + " = " + str(exp3))
+print("\t4.0 * " + str(num1) + " = " + str(exp4))
+print("\t5.0 * " + str(num1) + " = " + str(exp5))
+print("\t6.0 * " + str(num1) + " = " + str(exp6))
+print("\t7.0 * " + str(num1) + " = " + str(exp7))
+print("\t8.0 * " + str(num1) + " = " + str(exp8))
+print("\t9.0 * " + str(num1) + " = " + str(exp9))
